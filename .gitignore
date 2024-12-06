@@ -1,1 +1,12 @@
+# This .gitignore file lists content that does NOT need to be tracked in the project history
+
 .ipynb_checkpoints
+
+# Python virtual environment
+.venv/
+
+# Visual Studio Code settings and workspace
+.vscode/
+
+# Compiled Python files
+__pycache__/

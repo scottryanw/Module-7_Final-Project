@@ -1,7 +1,24 @@
 # Final Project: Article Summarizer
 
-Complete the tasks in the Python Notebook in this repository.
-Make sure to add and push the pkl or text file of your scraped html (this is specified in the notebook)
+
+## Create virtual environment
+'''bash
+python3 -m venv .venv
+source .venv/bin/activate
+'''
+
+## Git add and commit 
+'''bash
+git add .
+git commit -m "comment"
+git push -u origin master
+'''
+
+## Install Dependencies
+'''bash
+python3 -m pip install beautifulsoup4 html5lib ipykernel jupyterlab matplotlib requests spacy spacytextblob numpy pickle nltk
+python3 -m pip freeze > requirements.txt
+'''
 
 ## Rubric
 
