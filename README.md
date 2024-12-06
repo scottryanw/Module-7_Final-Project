@@ -1,5 +1,15 @@
 # Final Project: Article Summarizer
+This project involves extracting and analyzing the sentiment of an article through natural language processing (NLP) techniques. The process includes:
 
+Web Scraping: The HTML content of an article is scraped and stored.
+
+Sentiment Analysis: Sentiment scores for each sentence are calculated using TextBlob, based on both tokens and lemmas.
+
+Summary Generation: Sentences with sentiment scores above a specified threshold are selected to generate a summary of the article.
+
+Results: The project includes the calculation of polarity scores for both token-based and lemma-based summaries, along with the number of sentences in the generated summary.
+
+This work demonstrates how to apply basic NLP techniques to analyze text and generate summaries based on sentiment analysis.
 
 ## Create virtual environment
 '''bash
